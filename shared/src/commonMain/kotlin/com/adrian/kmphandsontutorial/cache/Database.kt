@@ -1,8 +1,8 @@
-package com.adrian.kmphandsontutorial.shared.cache
+package com.adrian.kmphandsontutorial.cache
 
-import com.adrian.kmphandsontutorial.shared.entity.Links
-import com.adrian.kmphandsontutorial.shared.entity.Rocket
-import com.adrian.kmphandsontutorial.shared.entity.RocketLaunch
+import com.adrian.kmphandsontutorial.entity.Links
+import com.adrian.kmphandsontutorial.entity.Rocket
+import com.adrian.kmphandsontutorial.entity.RocketLaunch
 
 internal class Database(databaseDriverFactory: DatabaseDriverFactory) {
     private val database = AppDatabase(databaseDriverFactory.createDriver())
