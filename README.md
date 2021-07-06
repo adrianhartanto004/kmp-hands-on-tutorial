@@ -3,8 +3,10 @@ from https://play.kotlinlang.org/hands-on/Networking%20and%20Data%20Storage%20wi
 
 
 # How to Run
-- Install the KMM Plugin from Android Studio `Preferences -> Plugins -> Install and check Kotlin Multiplatform Mopbile`
-- Make sure you have the latest XCode Version (12.5)
+- Open the whole project in Android Studio
+- Install the KMM Plugin from Android Studio `Preferences -> Plugins -> Install and check Kotlin Multiplatform Mobile`
+- Make sure you have [XCode](https://apps.apple.com/id/app/xcode/id497799835?mt=12) installed
+- For iOS UI Code it is recommended to open the `iosApp` folder in XCode
 
 Android App: 
 - Simply select androidApp
