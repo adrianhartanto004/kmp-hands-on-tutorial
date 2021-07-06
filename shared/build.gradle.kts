@@ -80,3 +80,9 @@ android {
         targetSdkVersion(30)
     }
 }
+
+sqldelight {
+    database("AppDatabase") {
+        packageName = "com.adrian.kmphandsontutorial.shared.cache"
+    }
+}
