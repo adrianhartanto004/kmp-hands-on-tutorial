@@ -83,6 +83,6 @@ android {
 
 sqldelight {
     database("AppDatabase") {
-        packageName = "com.adrian.kmphandsontutorial.shared.cache"
+        packageName = "com.adrian.kmphandsontutorial.cache"
     }
 }
