@@ -3,15 +3,13 @@ package com.adrian.kmphandsontutorial.android
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.FrameLayout
-import com.adrian.kmphandsontutorial.Greeting
-import android.widget.TextView
 import android.widget.Toast
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.adrian.kmphandsontutorial.SpaceXSDK
-import com.adrian.kmphandsontutorial.cache.DatabaseDriverFactory
+import com.adrian.kmphandsontutorial.shared.SpaceXSDK
+import com.adrian.kmphandsontutorial.shared.cache.DatabaseDriverFactory
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch

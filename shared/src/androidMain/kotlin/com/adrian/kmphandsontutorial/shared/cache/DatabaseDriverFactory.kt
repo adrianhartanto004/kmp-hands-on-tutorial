@@ -1,4 +1,4 @@
-package com.adrian.kmphandsontutorial.cache
+package com.adrian.kmphandsontutorial.shared.cache
 
 import android.content.Context
 import com.squareup.sqldelight.android.AndroidSqliteDriver
