@@ -29,9 +29,9 @@ kotlin {
         podfile = project.file("../iosApp/Podfile")
     }
 
-    val coroutinesVersion = "1.3.9-native-mt"
-    val serializationVersion = "1.0.0-RC"
-    val ktorVersion = "1.4.0"
+    val coroutinesVersion: String by project
+    val serializationVersion: String by project
+    val ktorVersion: String by project
     val sqlDelightVersion: String by project
 
     sourceSets {
