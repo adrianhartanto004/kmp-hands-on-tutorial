@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
+		23DA42CC269433EB00EDCD40 /* RocketLaunchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DA42CB269433EB00EDCD40 /* RocketLaunchRow.swift */; };
+		23DA42D226943B0D00EDCD40 /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DA42D126943B0D00EDCD40 /* iOSApp.swift */; };
 		2BFF792CE70CE5C50676EDAB /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF5C42155976B0187CD3155 /* Pods_iosApp.framework */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
+		23DA42CB269433EB00EDCD40 /* RocketLaunchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketLaunchRow.swift; sourceTree = "<group>"; };
+		23DA42D126943B0D00EDCD40 /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
 		274680C4B375C643A922AA64 /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.debug.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7530B67334CFC4DED3441EFF /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.release.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
 		7555FF7B242A565900829871 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,7 +59,8 @@
 			children = (
 				7555FF82242A565900829871 /* ContentView.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
-				2152FB032600AC8F00CF470E /* iOSApp.swift */,
+				23DA42D126943B0D00EDCD40 /* iOSApp.swift */,
+				23DA42CB269433EB00EDCD40 /* RocketLaunchRow.swift */,
 			);
 			path = iosApp;
 			sourceTree = "<group>";
@@ -76,7 +79,6 @@
 				274680C4B375C643A922AA64 /* Pods-iosApp.debug.xcconfig */,
 				7530B67334CFC4DED3441EFF /* Pods-iosApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -174,8 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				23DA42CC269433EB00EDCD40 /* RocketLaunchRow.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				23DA42D226943B0D00EDCD40 /* iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
