@@ -1,4 +1,4 @@
-package com.adrian.kmphandsontutorial.entity
+package com.adrian.kmphandsontutorial.shared.entity
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

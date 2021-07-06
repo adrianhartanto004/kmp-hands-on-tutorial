@@ -1,6 +1,6 @@
-package com.adrian.kmphandsontutorial.network
+package com.adrian.kmphandsontutorial.shared.network
 
-import com.adrian.kmphandsontutorial.entity.RocketLaunch
+import com.adrian.kmphandsontutorial.shared.entity.RocketLaunch
 import io.ktor.client.HttpClient
 import io.ktor.client.features.json.JsonFeature
 import io.ktor.client.features.json.serializer.KotlinxSerializer
@@ -23,3 +23,4 @@ class SpaceXApi {
         private const val LAUNCHES_ENDPOINT = "https://api.spacexdata.com/v3/launches"
     }
 }
+

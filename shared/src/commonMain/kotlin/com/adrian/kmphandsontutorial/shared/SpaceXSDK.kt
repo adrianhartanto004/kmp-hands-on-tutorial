@@ -1,9 +1,9 @@
-package com.adrian.kmphandsontutorial
+package com.adrian.kmphandsontutorial.shared
 
-import com.adrian.kmphandsontutorial.cache.Database
-import com.adrian.kmphandsontutorial.cache.DatabaseDriverFactory
-import com.adrian.kmphandsontutorial.entity.RocketLaunch
-import com.adrian.kmphandsontutorial.network.SpaceXApi
+import com.adrian.kmphandsontutorial.shared.cache.Database
+import com.adrian.kmphandsontutorial.shared.cache.DatabaseDriverFactory
+import com.adrian.kmphandsontutorial.shared.entity.RocketLaunch
+import com.adrian.kmphandsontutorial.shared.network.SpaceXApi
 
 class SpaceXSDK(databaseDriverFactory: DatabaseDriverFactory) {
     private val database = Database(databaseDriverFactory)

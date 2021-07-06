@@ -1,4 +1,4 @@
-package com.adrian.kmphandsontutorial.cache
+package com.adrian.kmphandsontutorial.shared.cache
 
 import com.squareup.sqldelight.db.SqlDriver
 
