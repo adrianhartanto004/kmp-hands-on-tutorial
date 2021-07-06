@@ -2,7 +2,11 @@ import SwiftUI
 import shared
 
 struct ContentView: View {
-  @ObservedObject private(set) var viewModel: ViewModel
+  @ObservedObject var viewModel: ContentViewModel
+
+  init(viewModel: ContentViewModel) {
+    self.viewModel = viewModel
+  }
 
   var body: some View {
     NavigationView {
@@ -25,36 +29,6 @@ struct ContentView: View {
       })
     case .error(let description):
       return AnyView(Text(description).multilineTextAlignment(.center))
-    }
-  }
-}
-
-extension ContentView {
-
-  enum LoadableLaunches {
-    case loading
-    case result([RocketLaunch])
-    case error(String)
-  }
-
-  class ViewModel: ObservableObject {
-    let sdk: SpaceXSDK
-    @Published var launches = LoadableLaunches.loading
-
-    init(sdk: SpaceXSDK) {
-      self.sdk = sdk
-      self.loadLaunches(forceReload: false)
-    }
-
-    func loadLaunches(forceReload: Bool) {
-      self.launches = .loading
-      sdk.getLaunches(forceReload: forceReload, completionHandler: { launches, error in
-        if let launches = launches {
-          self.launches = .result(launches)
-        } else {
-          self.launches = .error(error?.localizedDescription ?? "error")
-        }
-      })
     }
   }
 }
